@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>Links and Images test</title>
+    </head>
+
+    <body>
+        <h1>Homepage</h1>
+        <!--anchor element - wrap for a link
+        href holds the link
+        target specifies where the linked resource will be opened
+        so it wont open in the same tab (default is _self)
+        rel describes the reltionship between the current page and the 
+        linked doc
+        noopener prevents link from gaining access to the webpage that 
+        opened it
+        noreferrer prevents the link from knowing which webpage has a link
+        to it
+        noopener and noreferrer are there for security reasons-->
+        <a href="https://www.theodinproject.com/about" target="_blank" 
+        rel="noopener noreferrer">click me</a>
+        <br>
+        <a href="./pages/about.html">About</a>
+        <br>
+        <!--alt desscribes the photo and is shown if the photo cannot be
+        loaded-->
+        <img src="./images/dog.jpg" alt="dog">
+    </body>
+</html>
